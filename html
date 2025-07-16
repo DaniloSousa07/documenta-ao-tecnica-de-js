@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Python Docs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Python Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Variables_and_Types">Variables and Types</a>
+    <a class="nav-link" href="#Control_Flow">Control Flow</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Modules">Modules</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Python is a versatile, high-level programming language known for its easy readability and vast ecosystem.</p>
+      <p>It is widely used in web development, data analysis, machine learning, automation, and more.</p>
+      <p>Python supports multiple programming paradigms including procedural, object-oriented, and functional programming.</p>
+      <p>Its clean syntax makes it beginner-friendly and popular among new developers.</p>
+      <p>Python code is interpreted, making it highly portable and flexible.</p>
+      <code>print("Hello, Python!")</code>
+      <code># This is a comment</code>
+      <ul>
+        <li>Easy to learn</li>
+        <li>Open-source</li>
+        <li>Extensive libraries</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Variables_and_Types">
+      <header>Variables and Types</header>
+      <p>Python variables do not require explicit declaration to reserve memory space.</p>
+      <p>The declaration happens automatically when you assign a value to a variable.</p>
+      <p>Python is dynamically typed, so you don’t need to declare the type explicitly.</p>
+      <p>You can reassign variables to different types at runtime.</p>
+      <p>Common types include int, float, str, list, dict, and bool.</p>
+      <code>x = 42</code>
+      <code>name = "Alice"</code>
+      <ul>
+        <li>int: Integer values</li>
+        <li>str: String of text</li>
+        <li>list: Ordered collection</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Control_Flow">
+      <header>Control Flow</header>
+      <p>Control flow statements regulate the order in which instructions are executed.</p>
+      <p>Python supports if, elif, and else statements for conditional branching.</p>
+      <p>Loops in Python include while and for constructs.</p>
+      <p>Break and continue can be used to alter loop execution.</p>
+      <p>Indentation is mandatory and determines blocks of code.</p>
+      <code>if x > 10:\n    print("Greater than 10")</code>
+      <code>for i in range(5):\n    print(i)</code>
+      <ul>
+        <li>if/elif/else</li>
+        <li>for loops</li>
+        <li>while loops</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions help in breaking your program into smaller chunks of reusable code.</p>
+      <p>You define a function using the `def` keyword followed by the function name and parameters.</p>
+      <p>Functions can return values using the return statement.</p>
+      <p>Arguments can be required, optional, or keyword-based.</p>
+      <p>Python also supports lambda functions for short, anonymous operations.</p>
+      <code>def greet(name):\n    return f"Hello {name}"</code>
+      <code>add = lambda a, b: a + b</code>
+      <ul>
+        <li>Function definition</li>
+        <li>Function call</li>
+        <li>Return values</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Modules">
+      <header>Modules</header>
+      <p>Modules are files containing Python code (functions, variables, classes).</p>
+      <p>You can import standard or custom modules into your project.</p>
+      <p>Python includes a rich standard library that simplifies many tasks.</p>
+      <p>To use external modules, use the `import` statement.</p>
+      <p>You can also install third-party modules via pip.</p>
+      <code>import math</code>
+      <code>from datetime import datetime</code>
+      <ul>
+        <li>Standard modules</li>
+        <li>Custom modules</li>
+        <li>pip for external libraries</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
