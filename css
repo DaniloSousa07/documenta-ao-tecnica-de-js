@@ -1,0 +1,39 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar styles */
+#navbar {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+}
+
+#navbar header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
+
+.
